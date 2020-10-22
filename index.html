@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site du chef</title>
+    <!-- link style -->
+    <link rel="stylesheet" href="public/css/app.css">
+
+</head>
+<body>
+    <!-- début header -->
+    <header>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu List</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Team</a>
+            </li>
+          </ul>
+          <div class='img_nav'>
+            <img src="./public/images/logo.png" class="logo p-3" alt="" srcset="">
+          </div>
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Réservation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- caroussel -->
+      <div id="carouselExampleInterval caroussel" class="carousel slide " data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="10000">
+            <div class="d-block w-100 slogan p-lg-5">
+              <h1>Whatever your <span class="span1">Occasion,</span> <span class="span2">Taste</span> makes it one to <span class="span1">Remember</span></h1>
+              <button type="button" class="btn btn1">Réservez</button>
+              <button type="button" class="btn btn2">En savoir plus</button>
+            </div>
+          </div>
+          <div class="carousel-item" data-interval="2000">
+            <div class="d-block w-100 slogan p-lg-5">
+              <h1>whatever you <span class="span1">need </span> you will<span class="span2">always</span> find  it in <span class="span1">our restaurant</span></h1>
+              <button type="button" class="btn btn1">Réservez</button>
+              <button type="button" class="btn btn2">En savoir plus</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-block w-100 slogan p-lg-5">
+              <h1>Alone, with <span class="span1">Familly,</span> or <span class="span2">friends</span>come, eat and have <span class="span1">fun</span></h1>
+              <button type="button" class="btn btn1">Réservez</button>
+              <button type="button" class="btn btn2">En savoir plus</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- décoration fin de header -->
+      <div class="img_decoration">
+        <!-- <img src="./public/images/bottom_decoration_img.png" alt="" srcset=""> -->
+      </div>
+    </header>
+    <section class="sectionun p-lg-5 p-md-3 p-sm-5">
+      <div class="container ">
+        <!-- décoration coin au dessus -->
+        <div class="top_left">
+            <img src="./public/images/box-left-top.png" alt="">
+        </div>
+        <div class="top_right">
+            <img src="./public/images/box-right-top.png" alt="">
+        </div>
+        <!-- partie histoire -->
+        <div class="story p-5">
+          <div class="row">
+            <h2 class="text-center col-12"><span>Ours</span> Story</h2>
+            <img src="./public/images/decoration_line.png" class="col-12" alt="ligne décoratrice sourlignant le texte">
+            <!-- idée pour avoir l'image en dessous eu la mettre en after?!  -->
+          </div>
+          <p text-center>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, dicta eum, id voluptates deserunt ex numquam, ab asperiores dolorem nihil deleniti aspernatur incidunt consectetur doloremque iste corporis similique eius velit neque ad nam laudantium! Mollitia voluptas eaque reprehenderit illum magni omnis, nam consequatur, ipsa illo aperiam iste, in autem tenetur. Dolor porro cupiditate excepturi.</p>
+        </div>
+        <!-- partie menu -->
+        <div class="menu">
+          <h2 class="text-center"><span>Our</span> Menu </h2>
+          <img src="./public/images/decoration_line.png" alt="ligne décoratrice sourlignant le texte">
+
+        </div>
+        <!-- décoration dessous -->
+        <div class="bottom_left">
+          <img src="./public/images/box-bottom-left.png" alt="">
+      </div>
+      <div class="bottom_right">
+          <img src="./public/images/box-bottom_right.png" alt="">
+      </div>
+      </div>
+    </section>
+    <!-- fin section une -->
+    <!-- section équipe -->
+    <section class="sectiondeux row m-0">
+    <div class="col-lg-3 col-md-3 col-sm-12">
+      <img src="./public/images/chef1.png" alt="" srcset="">
+      <hr>
+      <span>Maître Grill</span>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-12">
+      <img src="./public/images/chef2.png" alt="" srcset="">
+      <hr>
+      <span>Maitre vegan</span>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-12">
+      <img src="./public/images/chef3.png" alt="" srcset="">
+      <hr>
+      <span>Maître burger</span>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-12">
+      <img src="./public/images/chef4.png" alt="" srcset="">
+      <hr>
+      <span>Maître dessert</span>
+    </div>
+    </section>
+          
+
+    <!-- script jquery -->
+<script src="./node_modules/jquery/dist/jquery.js"></script>
+<!-- script bootstrap -->
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+// général
+body
+    h2
+        font-family: courgette
+        span
+            color: $colorred
+// header
+header
+    background: linear-gradient( rgba(22, 20, 20, 0.7), rgba(56, 51, 51, 0.789) ), url("../../public/images/banner1.jpg")
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    height: 500px
+
+    nav
+        ul
+            border-bottom: 2px solid #ffffff
+            border-top: 2px solid #ffffff
+            a
+                color: #ffffff
+                &:hover
+                    color: #776e6e
+                    background: $colorred
+
+        .img_nav
+            // bonus pour aggrandir le ogo en passant
+            &:hover
+                transform: scale(1.2)
+    #caroussel
+        height: 50%
+        width: 50%
+.slogan
+    text-align: center
+    font-family: courgette
+    color: #ffffff
+    .span1
+        font-size: 60px
+    .span2
+        font-size: 60px
+        color: $colorred           
+
+.logo
+    height: 80px
+// carrousel
+
+.btn1
+    background-color: $colorred
+    color: #ffffff
+    &:hover
+        background-color:#ffffff
+        color: $colorred
+.btn2
+    background-color: #ffffff
+    color: $colorred
+    &:hover
+        background-color: #8d8080
+
+        
+// décoration bas de header
+.img_decoration
+    background-image: url("../../public/images/bottom_decoration_img.png")
+    background-repeat: repeat-x
+    position: absolute
+    top: 480px
+    // prq ça ne fonctionne pas?????? 
