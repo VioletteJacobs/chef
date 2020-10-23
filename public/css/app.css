@@ -15813,23 +15813,23 @@ header nav .img_nav:hover {
   transform: scale(1.2);
 }
 
-#carouselExampleInterval .carousel-indicators li {
+header #carouselExampleInterval .carousel-indicators li {
   height: 10%;
   width: 10%;
   border-radius: 50%;
 }
 
-.slogan {
+header #carouselExampleInterval .carousel-inner .carousel-item .slogan {
   text-align: center;
   font-family: courgette;
   color: #ffffff;
 }
 
-.slogan .span1 {
+header #carouselExampleInterval .carousel-inner .carousel-item .slogan .span1 {
   font-size: 60px;
 }
 
-.slogan .span2 {
+header #carouselExampleInterval .carousel-inner .carousel-item .slogan .span2 {
   font-size: 60px;
   color: #740707;
 }
