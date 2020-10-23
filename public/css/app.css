@@ -15792,6 +15792,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
+  position: relative;
 }
 
 header nav ul {
@@ -15812,9 +15813,9 @@ header nav .img_nav:hover {
   transform: scale(1.2);
 }
 
-header #caroussel ol li {
-  width: 5px;
-  height: 5px;
+.indicateurs {
+  height: 10%;
+  width: 10%;
   border-radius: 100%;
 }
 
@@ -15861,7 +15862,8 @@ header #caroussel ol li {
   height: 2%;
   background-image: url("../../public/images/bottom_decoration_img.png");
   background-repeat: repeat-x;
-  position: relative;
+  position: absolute;
+  bottom: 1%;
 }
 
 .sectionun {
