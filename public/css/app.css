@@ -15973,3 +15973,25 @@ header nav .img_nav:hover {
   background-color: #740707;
   color: #ffffff;
 }
+
+.footer {
+  background: linear-gradient(rgba(22, 20, 20, 0.7), rgba(56, 51, 51, 0.789)), url("../../public/images/footer_background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+}
+
+.footer .img_deco {
+  width: 100%;
+  height: 10%;
+  background-image: url("../../public/images/footer_bottom_decoration_img.png");
+  background-repeat: repeat-x;
+  position: absolute;
+  bottom: 92%;
+}
+
+.footer .copyright {
+  background-color: #740707;
+}
