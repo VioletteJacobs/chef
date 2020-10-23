@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: courgette;
   src: url(../../public/font/Courgette/Courgette-Regular.ttf);
@@ -15780,6 +15781,10 @@ readers do not read off random characters that represent icons */
 
 body h2 {
   font-family: courgette;
+  background-image: url("../../public/images/decoration_line.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 10px;
 }
 
 body h2 span {
@@ -15877,33 +15882,17 @@ header nav .img_nav:hover {
   background-image: url("../../public/images/main_bg.jpg");
 }
 
-.sectionun .container {
-  background-color: #ffffff;
-  position: relative;
+.row .café img {
+  border: solid 5px #5a4646;
+  height: 100px;
 }
 
-.top_left {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
-
-.top_right {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-}
-
-.bottom_left {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-}
-
-.bottom_right {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
+.dollars {
+  background-color: #740707;
+  color: #ffffff;
+  border-radius: 30%;
+  border: solid 2px #ffffff;
+  padding: 4%;
 }
 
 .section_deux {
