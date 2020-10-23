@@ -53,9 +53,9 @@
         </div>
       </nav>
       <!-- caroussel -->
-      <div id="carouselExampleInterval caroussel" class="carousel slide " data-ride="carousel">
+      <div id="carouselExampleInterval" class="carousel slide " data-ride="carousel">
         <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" class="indicateurs" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" class="indicateurs" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" class="indicateurs" data-slide-to="2"></li>
         </ol>
@@ -102,7 +102,6 @@
           <div class="row m-0" id="us">
             <h2 class="text-center col-12"><span>Ours</span> Story</h2>
             <img src="./public/images/decoration_line.png" class="col-6 mx-auto" alt="ligne décoratrice sourlignant le texte">
-            <!-- idée pour avoir l'image en dessous eu la mettre en after?!  -->
           </div>
           <p text-center>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, dicta eum, id voluptates deserunt ex numquam, ab asperiores dolorem nihil deleniti aspernatur incidunt consectetur doloremque iste corporis similique eius velit neque ad nam laudantium! Mollitia voluptas eaque reprehenderit illum magni omnis, nam consequatur, ipsa illo aperiam iste, in autem tenetur. Dolor porro cupiditate excepturi.</p>
         </div>
@@ -111,7 +110,6 @@
           <div class="row m-0" id="us">
             <h2 class="text-center col-12"><span>Our</span> Menu</h2>
             <img src="./public/images/decoration_line.png" class="col-6 mx-auto" alt="ligne décoratrice sourlignant le texte">
-            <!-- idée pour avoir l'image en dessous eu la mettre en after?!  -->
           </div>
           <section>
             <div class="row">
@@ -150,26 +148,26 @@
         <h2 class="text-center text-white col-12"><span>Meet</span> the team</h2>
         <img src="./public/images/decoration_line.png" class="col-6 mx-auto" alt="ligne décoratrice sourlignant le texte">
       <div class="row m-0 team">
-        <div class="col-lg-3 col-md-3 col-sm-12 text-center p-3 chef">
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center p-3 chef">
           <img src="./public/images/chef1.png" class="border-bottom" alt="photo chef" srcset="">
           <span class="text-white">Maître Grill</span>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 text-center p-3 chef">
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center p-3 chef">
           <img src="./public/images/chef2.png"  class="border-bottom" alt="photo chef" srcset="">
           <span class="text-white">Maître vegan</span>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 text-center p-3 chef">
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center p-3 chef">
           <img src="./public/images/chef3.png" class="border-bottom" alt="photo chef" srcset="">
           <span class="text-white">Maître burger</span>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 text-center p-3 chef">
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center p-3 chef">
           <img src="./public/images/chef4.png" class="border-bottom" alt="photo chef" srcset="">
           <span class="text-white">Maître dessert</span>
         </div>
       </div>
     </section>
     <!-- fin section deux -->
-    <!-- section trois -->
+    <!-- section trois réserver et blog -->
         <section class="sectiontrois p-lg-5 p-md-3 p-sm-5">
       <div class="container ">
         <!-- décoration coin au dessus -->
@@ -195,11 +193,11 @@
           </div>
           <div class="row m-0">
             <div class="col-lg-6 col-md-6 col-sm-12">
-              <img src="./public/images/blog_img1.jpg" alt="salade grecque" srcset="">
+              <img src="./public/images/blog_img1.jpg" class="img-fluid" alt="salade grecque" srcset="">
               <p>Savourez une salade grecque durant votre pause déjeuner pour faire le plein de vitamines et de soleil avant de retourner bosser.</p>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
-              <img src="./public/images/blog_img2.jpg" alt="salade niçoise" srcset="">
+              <img src="./public/images/blog_img2.jpg" class="img-fluid" alt="salade niçoise" srcset="">
               <p>Nos salades niçoises vous apporteront le plein de protéines et vitamines pour entamer votre après-midi avec un relan d'énergie</p>
             </div>
           </div>
@@ -214,11 +212,36 @@
       </div>
     </section>
     <!-- fin section -->
-    <!-- section quatres -->
-    <section class="sectionquatres">
-
-
-
+    <!-- section quatres témoignages-->
+    <section class="sectionquatres text-white">
+      <!-- titre -->
+      <div class="row m-0 p-5">
+        <h2 class="text-center col-12"><span>Client</span> Testimonials</h2>
+        <img src="./public/images/decoration_line.png" class="col-6 mx-auto" alt="ligne décoratrice sourlignant le texte">
+      </div>
+      <!-- témoignages -->
+      <div class=" row m-0 temoin">
+        <div class="temoin1 col-lg-6 col-md-12 col-sm-12 m-0 d-flex">
+          <div class="img_temoin p-3">
+            <img src="./public/images/testimonial1.jpg" alt="photo femme" srcset="">
+          </div>
+          <div class="texte_temoin p-3">
+            <h3>Natacha</h3>
+            <span> Habituée des lunchs en équipe</span>
+            <p class="m-0">C'est toujours un plaisir de venir manger hez vous! On est bien reçu et on mange bien</p>
+          </div>
+        </div>
+        <div class="temoin2 col-lg-6 col-md-12 col-sm-12m-0 d-flex">
+          <div class="img_temoin order-1 p-3">
+            <img src="./public/images/testimonial1.jpg" alt="photo femme" srcset="">
+          </div>
+          <div class="texte_temoin p-3 ">
+            <h3>Théa</h3>
+            <span> Blogeuse food</span>
+            <p class="m-0">Taste, c'est ma carte sûre les jours où j'ai envie de me faire plaisir, de manger bien et d'être dans un bel endroit</p>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- fin section trois -->
       <!-- section témoignage-->

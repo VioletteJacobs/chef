@@ -15813,10 +15813,10 @@ header nav .img_nav:hover {
   transform: scale(1.2);
 }
 
-.indicateurs {
+#carouselExampleInterval .carousel-indicators li {
   height: 10%;
   width: 10%;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 .slogan {
@@ -15859,7 +15859,7 @@ header nav .img_nav:hover {
 
 .img_decoration {
   width: 100%;
-  height: 2%;
+  height: 10%;
   background-image: url("../../public/images/bottom_decoration_img.png");
   background-repeat: repeat-x;
   position: absolute;
@@ -15940,6 +15940,20 @@ header nav .img_nav:hover {
   right: 0px;
 }
 
-.section_quatre {
+.sectionquatres {
   background-image: url("../../public/images/testimonials_background.jpg");
+}
+
+.sectionquatres .temoin .img_temoin img {
+  border: solid 5px #ffffff;
+  border-radius: 50%;
+}
+
+.sectionquatres .temoin .texte_temoin {
+  border: solid 2px #ffffff;
+  border-radius: 25%;
+}
+
+.sectionquatres .temoin .texte_temoin span {
+  color: #740707;
 }
