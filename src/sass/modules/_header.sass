@@ -23,12 +23,15 @@ header
                     background: $colorred
 
         .img_nav
-            // bonus pour aggrandir le ogo en passant
+            // bonus pour aggrandir le logo en passant
             &:hover
                 transform: scale(1.2)
     #caroussel
-        height: 50%
-        width: 50%
+        ol
+            li
+                width: 5px
+                height: 5px
+                border-radius: 100%
 .slogan
     text-align: center
     font-family: courgette
@@ -58,8 +61,10 @@ header
         
 // décoration bas de header
 .img_decoration
+    width: 100%
+    height: 2%
     background-image: url("../../public/images/bottom_decoration_img.png")
     background-repeat: repeat-x
-    position: absolute
-    top: 480px
+    position: relative
+    // top: 495px
     // prq ça ne fonctionne pas?????? 

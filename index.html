@@ -22,27 +22,27 @@
               <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About us</a>
+              <a class="nav-link" href="#us">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Menu List</a>
+              <a class="nav-link" href="#menu">Menu List</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Team</a>
+                <a class="nav-link" href="#team">Team</a>
             </li>
           </ul>
           <div class='img_nav'>
-            <img src="./public/images/logo.png" class="logo p-3" alt="" srcset="">
+            <img src="./public/images/logo.png" class="logo" alt="logo taste" srcset="">
           </div>
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Réservation</a>
+              <a class="nav-link" href="#book">Réservation</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="#blog">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Testimonials</a>
+              <a class="nav-link" href="#temoin">Testimonials</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact Us</a>
@@ -97,18 +97,40 @@
         </div>
         <!-- partie histoire -->
         <div class="story p-5">
-          <div class="row">
+          <div class="row m-0" id="us">
             <h2 class="text-center col-12"><span>Ours</span> Story</h2>
-            <img src="./public/images/decoration_line.png" class="col-12" alt="ligne décoratrice sourlignant le texte">
+            <img src="./public/images/decoration_line.png" class="col-6 mx-auto" alt="ligne décoratrice sourlignant le texte">
             <!-- idée pour avoir l'image en dessous eu la mettre en after?!  -->
           </div>
           <p text-center>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, dicta eum, id voluptates deserunt ex numquam, ab asperiores dolorem nihil deleniti aspernatur incidunt consectetur doloremque iste corporis similique eius velit neque ad nam laudantium! Mollitia voluptas eaque reprehenderit illum magni omnis, nam consequatur, ipsa illo aperiam iste, in autem tenetur. Dolor porro cupiditate excepturi.</p>
         </div>
         <!-- partie menu -->
-        <div class="menu">
-          <h2 class="text-center"><span>Our</span> Menu </h2>
-          <img src="./public/images/decoration_line.png" alt="ligne décoratrice sourlignant le texte">
-
+        <div class="menu" id="menu">
+          <div class="row m-0" id="us">
+            <h2 class="text-center col-12"><span>Our</span> Menu</h2>
+            <img src="./public/images/decoration_line.png" class="col-6 mx-auto" alt="ligne décoratrice sourlignant le texte">
+            <!-- idée pour avoir l'image en dessous eu la mettre en after?!  -->
+          </div>
+          <section>
+            <div class="row">
+              <div class="col-4">
+                <div class="list-group" id="list-tab" role="tablist">
+                  <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
+                  <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+                  <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+                  <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">...</div>
+                  <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
+                  <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
+                  <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
         <!-- décoration dessous -->
         <div class="bottom_left">
@@ -121,29 +143,101 @@
     </section>
     <!-- fin section une -->
     <!-- section équipe -->
-    <section class="sectiondeux row m-0">
-    <div class="col-lg-3 col-md-3 col-sm-12">
-      <img src="./public/images/chef1.png" alt="" srcset="">
-      <hr>
-      <span>Maître Grill</span>
-    </div>
-    <div class="col-lg-3 col-md-3 col-sm-12">
-      <img src="./public/images/chef2.png" alt="" srcset="">
-      <hr>
-      <span>Maitre vegan</span>
-    </div>
-    <div class="col-lg-3 col-md-3 col-sm-12">
-      <img src="./public/images/chef3.png" alt="" srcset="">
-      <hr>
-      <span>Maître burger</span>
-    </div>
-    <div class="col-lg-3 col-md-3 col-sm-12">
-      <img src="./public/images/chef4.png" alt="" srcset="">
-      <hr>
-      <span>Maître dessert</span>
-    </div>
+    <section class="section_deux">
+      <div class="row m-0 p-3" id="team">
+        <h2 class="text-center text-white col-12"><span>Meet</span> the team</h2>
+        <img src="./public/images/decoration_line.png" class="col-6 mx-auto" alt="ligne décoratrice sourlignant le texte">
+      <div class="row m-0 team">
+        <div class="col-lg-3 col-md-3 col-sm-12 text-center p-3 chef">
+          <img src="./public/images/chef1.png" class="border-bottom" alt="photo chef" srcset="">
+          <span class="text-white">Maître Grill</span>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12 text-center p-3 chef">
+          <img src="./public/images/chef2.png"  class="border-bottom" alt="photo chef" srcset="">
+          <span class="text-white">Maître vegan</span>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12 text-center p-3 chef">
+          <img src="./public/images/chef3.png" class="border-bottom" alt="photo chef" srcset="">
+          <span class="text-white">Maître burger</span>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12 text-center p-3 chef">
+          <img src="./public/images/chef4.png" class="border-bottom" alt="photo chef" srcset="">
+          <span class="text-white">Maître dessert</span>
+        </div>
+      </div>
     </section>
-          
+    <!-- fin section deux -->
+    <!-- section trois -->
+        <section class="sectiontrois p-lg-5 p-md-3 p-sm-5">
+      <div class="container ">
+        <!-- décoration coin au dessus -->
+        <div class="top_left_r">
+            <img src="./public/images/box-left-top-grey.png" alt="coin gris décors">
+        </div>
+        <div class="top_right_r">
+            <img src="./public/images/box-right-top-grey.png" alt="coin gris décors">
+        </div>
+        <!-- book-->
+        <div class="book p-5">
+          <div class="row m-0" id="us">
+            <h2 class="text-center col-12"><span>Book</span> your table</h2>
+            <img src="./public/images/decoration_line.png" class="col-6 mx-auto" alt="ligne décoratrice sourlignant le texte">
+          </div>
+          <!-- formulaire -->
+        </div>
+        <!-- partie blog -->
+        <div class="blog" id="blog">
+          <div class="row m-0 p-5">
+            <h2 class="text-center col-12"><span>Our</span> blog</h2>
+            <img src="./public/images/decoration_line.png" class="col-6 mx-auto" alt="ligne décoratrice sourlignant le texte">
+          </div>
+          <div class="row m-0">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <img src="./public/images/blog_img1.jpg" alt="salade grecque" srcset="">
+              <p>Savourez une salade grecque durant votre pause déjeuner pour faire le plein de vitamines et de soleil avant de retourner bosser.</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <img src="./public/images/blog_img2.jpg" alt="salade niçoise" srcset="">
+              <p>Nos salades niçoises vous apporteront le plein de protéines et vitamines pour entamer votre après-midi avec un relan d'énergie</p>
+            </div>
+          </div>
+        </div>
+        <!-- décoration dessous -->
+        <div class="bottom_left_r">
+          <img src="./public/images/box-bottom-left-grey.png" alt="coin gris décor">
+      </div>
+      <div class="bottom_right_r">
+          <img src="./public/images/box-bottom_right-grey.png" alt="coin gris décor">
+      </div>
+      </div>
+    </section>
+    <!-- fin section -->
+    <!-- section quatres -->
+    <section class="sectionquatres">
+
+
+
+    </section>
+    <!-- fin section trois -->
+      <!-- section témoignage-->
+    <!-- <section class="section_quatre row m-0">
+      <div class="col-12 d-flex m-0 p-3" id="temoin">
+        <h2 class="text-center text-white col-3"><span>Client</span> testimonials</h2>
+        <img src="./public/images/decoration_line.png" class="col-3 mx-auto" alt="ligne décoratrice sourlignant le texte">
+      <div class="col d-flex m-0 temoin">
+        <div class="col-lg-3 col-md-3 col-sm-12 text-center p-3 ">
+          <img src="./public/images/testimonial1.jpg" class="border-bottom" alt="photo chef" srcset="">
+          <span class="text-white">Maître Grill</span>
+        </div>
+      </div>
+      <div class="row m-0 temoin">
+        <div class="col-lg-3 col-md-3 col-sm-12 text-center p-3 ">
+          <img src="./public/images/testimonial1.jpg" class="border-bottom" alt="photo chef" srcset="">
+          <span class="text-white">Maître Grill</span>
+        </div>
+      </div>
+    </section> -->
+        
 
     <!-- script jquery -->
 <script src="./node_modules/jquery/dist/jquery.js"></script>
