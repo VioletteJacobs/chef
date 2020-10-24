@@ -15935,18 +15935,31 @@ header nav .img_nav:hover {
   background-image: url("../../public/images/main_bg.jpg");
 }
 
+.blog_img img {
+  border-radius: 20%;
+  border: solid #af9a9aff 5px;
+  position: relative;
+}
+
+.blog_img .like {
+  background-color: #740707;
+  color: #ffffff;
+  position: absolute;
+  border-radius: 30%;
+}
+
 .sectionquatres {
   background-image: url("../../public/images/testimonials_background.jpg");
 }
 
 .sectionquatres .temoin .img_temoin img {
-  border: solid 5px #ffffff;
+  border: solid 5px #af9a9aff;
   border-radius: 50%;
 }
 
 .sectionquatres .temoin .texte_temoin {
   border: solid 2px #ffffff;
-  border-radius: 25%;
+  border-radius: 20%;
 }
 
 .sectionquatres .temoin .texte_temoin span {
@@ -15967,7 +15980,7 @@ header nav .img_nav:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 300px;
+  height: 400px;
   position: relative;
 }
 
@@ -15980,6 +15993,21 @@ header nav .img_nav:hover {
   bottom: 92%;
 }
 
-.footer .copyright {
+.réseaux a {
+  color: #ffffff;
+}
+
+.réseaux:hover {
+  color: #740707;
+}
+
+.tag {
+  border-radius: 35%;
+  border: solid 1px #ffffff;
+  background-color: #740707;
+  color: #ffffff;
+}
+
+.copyright {
   background-color: #740707;
 }

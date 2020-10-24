@@ -69,14 +69,14 @@
           </div>
           <div class="carousel-item">
             <div class="d-block w-100 slogan p-lg-5">
-              <h1>Whatever you <span class="span1">need </span> you will<span class="span2">always</span> find  it in <span class="span1">our restaurant</span></h1>
+              <h1>Whatever you <span class="span1">need</span> you will<span class="span2">always</span> find it <span class="span1">here</span></h1>
               <button type="button" class="btn btn1">Réservez</button>
               <button type="button" class="btn btn2">En savoir plus</button>
             </div>
           </div>
           <div class="carousel-item">
             <div class="d-block w-100 slogan p-lg-5">
-              <h1>Alone, with <span class="span1">Familly,</span> or <span class="span2">friends</span>come, eat and have <span class="span1">fun</span> with us</h1>
+              <h1>Alone, with <span class="span1">Familly,</span> or <span class="span2">friends</span>come and have <span class="span1">fun</span> with us</h1>
               <button type="button" class="btn btn1">Réservez</button>
               <button type="button" class="btn btn2">En savoir plus</button>
             </div>
@@ -97,7 +97,7 @@
             <img src="./public/images/box-left-top.png" alt="">
           </div>
           <div class="col-6">
-            <h2 class="text-center col-12"><span>Ours</span> Story</h2>
+            <h2 class="text-center col-12" id="us"><span>Ours</span> Story</h2>
             <p text-center>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, dicta eum, id voluptates deserunt ex numquam, ab asperiores dolorem nihil deleniti aspernatur incidunt consectetur doloremque iste corporis similique eius velit neque ad nam laudantium! Mollitia voluptas eaque reprehenderit illum magni omnis, nam consequatur, ipsa illo aperiam iste, in autem tenetur. Dolor porro cupiditate excepturi.</p>
           </div>
           <div class="col-3 d-flex justify-content-end align-items-start">
@@ -106,7 +106,7 @@
         </div>
         <!-- menu -->
         <div>
-          <h2 class="text-center col-12"><span>Ours</span> Menu</h2>
+          <h2 class="text-center col-12" id="menu"><span>Ours</span> Menu</h2>
           <div class="row m-0">
             <!-- menu déroulant -->
             <div class="col-lg-2 col-md-12 col-sm-12">
@@ -420,12 +420,12 @@
         <!-- décoration en coin de fin  -->
         <div class="row">
           <div class="col-3 d-flex justify-content-start align-items-end">
-            <img src="./public/images/box-bottom-left.png" alt="">
+            <img src="./public/images/box-bottom-left.png" class="img-fluid" alt="coin bordure-déco">
           </div>
           <div class="col-6 bg_image">
           </div>
           <div class="col-3 d-flex justify-content-end align-items-end">
-            <img src="./public/images/box-bottom_right.png" alt="">
+            <img src="./public/images/box-bottom_right.png" class="img-fluid" alt="coin-bordure déco">
           </div>
         </div>
         <!-- fin bg white -->
@@ -436,21 +436,29 @@
     <section class="section_deux">
       <div class="row m-0 p-3" id="team">
         <h2 class="text-center text-white col-12"><span>Meet</span> the team</h2>
-      <div class="row m-0 team">
+      <div class="row m-auto team">
         <div class="col-lg-3 col-md-6 col-sm-12 text-center p-3 chef">
-          <img src="./public/images/chef1.png" class="border-bottom" alt="photo chef" srcset="">
+          <div>
+            <img src="./public/images/chef1.png" class="border-bottom img-fluid" alt="photo chef" srcset="">
+          </div>
           <span class="text-white">Maître Grill</span>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 text-center p-3 chef">
-          <img src="./public/images/chef2.png"  class="border-bottom" alt="photo chef" srcset="">
+          <div>
+            <img src="./public/images/chef2.png"  class="border-bottom img-fluid" alt="photo chef" srcset="">
+          </div>
           <span class="text-white">Maître vegan</span>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 text-center p-3 chef">
-          <img src="./public/images/chef3.png" class="border-bottom" alt="photo chef" srcset="">
+          <div>
+            <img src="./public/images/chef3.png" class="border-bottom img-fluid" alt="photo chef" srcset="">
+          </div>
           <span class="text-white">Maître burger</span>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 text-center p-3 chef">
-          <img src="./public/images/chef4.png" class="border-bottom" alt="photo chef" srcset="">
+          <div>
+            <img src="./public/images/chef4.png" class="border-bottom img-fluid" alt="photo chef" srcset="">
+          </div>
           <span class="text-white">Maître dessert</span>
         </div>
       </div>
@@ -462,95 +470,116 @@
         <!-- coin décoration -->
         <div class="row">
           <div class="col-3 d-flex justify-content-start align-items-start">
-            <img src="./public/images/box-left-top-grey.png" alt="">
+            <img src="./public/images/box-left-top-grey.png" class="img-fluid" alt="coin bord déco">
           </div>
           <div class="col-6">
             <h2 class="text-center col-12"><span>Book</span> your table</h2>
           </div>
           <div class="col-3 d-flex justify-content-end align-items-start">
-            <img src="./public/images/box-right-top-grey.png" alt="">
+            <img src="./public/images/box-right-top-grey.png" class="img-fluid" alt="coin bord déco">
           </div>
         </div>
         <!-- book your table -->
-        <div class="row m-0 justify-content-center">
+        <div class="row m-0 justify-content-center align-items-center" id="book">
           <!-- card -->
           <div class="card bg-dark text-white">
-            <img src="./public/images/book_table_bg.jpg" class="card-img" alt="iamge d'arriére plan table">
+            <img src="./public/images/book_table_bg.jpg" class="card-img img-fluid" alt="iamge d'arriére plan table">
             <div class="card-img-overlay">
               <h5 class="card-title text-center">Si vous avez la moindre question, téléphonez au <span>0487/56.21.01</span></h5>
               <!-- formulaire de réservation -->
-              <form>
-                <div class="form-group">
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nom et prénom">
+              <form class="row m-0 d-flex p-lg-5 ">
+                <!-- rangée1 -->
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nom et prénom">
+                  </div>
+                  <div class="form-group">
+                    <input type="phone" class="form-control" id="exampleFormControlInput1" placeholder="Numéro de téléphone">
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Date (jj/mm/aaaa)">
+                  </div>
+                  <div>
+                    <select class="custom-select">
+                      <option selected>Occasion</option>
+                      <option value="1">Anniversaire</option>
+                      <option value="2">Joie entre ami.es.</option>
+                      <option value="3">Moment romantique</option>
+                      <option value="4">Juste comme ça</option>
+                      <option value="5">Ça te regarde pas</option>
+                    </select>
+                  </div>
                 </div>
-                <div class="form-group">
-                  <input type="phone" class="form-control" id="exampleFormControlInput1" placeholder="Numéro de téléphone">
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Date (jj/mm/aaaa)">
-                </div>
-                <div>
-                  <select class="custom-select">
-                    <option selected>Occasion</option>
-                    <option value="1">Anniversaire</option>
-                    <option value="2">Joie entre ami.es.</option>
-                    <option value="3">Moment romantique</option>
-                    <option value="4">Juste comme ça</option>
-                    <option value="5">Ça te regarde pas</option>
-                  </select>
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Votre email">
-                </div>
-                <div>
-                  <select class="custom-select">
-                    <option selected>Nombre de personne(s)</option>
-                    <option value="1">Tête à tête avec soit-même</option>
-                    <option value="2">soirée à deux</option>
-                    <option value="3">entre 3 et 4</option>
-                    <option value="4">entre 5 et 6</option>
-                    <option value="5">plus de 6</option>
-                  </select>
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Heure de réservation (xxhxx)">
-                </div>
-                <div>
-                  <select class="custom-select">
-                    <option selected>Type de cuisine</option>
-                    <option value="1">Burger loveur</option>
-                    <option value="2">Vegan ever</option>
-                    <option value="3">Grillade forever</option>
-                    <option value="4">Pizza please</option>
-                    <option value="5">Juste un dessert, c'est possible?!</option>
-                  </select>
+                <!-- rangée 2 -->
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Votre email">
+                  </div>
+                  <div>
+                    <select class="custom-select mb-3">
+                      <option selected>Nombre de personne(s)</option>
+                      <option value="1">Tête à tête avec soit-même</option>
+                      <option value="2">soirée à deux</option>
+                      <option value="3">entre 3 et 4</option>
+                      <option value="4">entre 5 et 6</option>
+                      <option value="5">plus de 6</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Heure de réservation (xxhxx)">
+                  </div>
+                  <div>
+                    <select class="custom-select">
+                      <option selected>Type de cuisine</option>
+                      <option value="1">Burger loveur</option>
+                      <option value="2">Vegan ever</option>
+                      <option value="3">Grillade forever</option>
+                      <option value="4">Pizza please</option>
+                      <option value="5">Juste un dessert, c'est possible?!</option>
+                    </select>
+                  </div>
                 </div>
               </form>
-              <button type="button" class="btn btn1">Réservez</button>
+              <div class="d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn1">Réservez</button>
+              </div>
             </div>
           </div>
         </div>
         <!-- blog -->
         <div class="row m-0">
-        <h2 class="text-center col-12"><span>Our</span> Blog</h2>
+        <h2 class="text-center col-12" id="blog"><span>Our</span> Blog</h2>
         <div class="row m-0">
           <!-- article 1 -->
           <div class="col-lg-6 col-md-6 col-sm-12">
             <div>
-              <img src="./public/images/blog_img1.jpg" alt="assiette">
-              <div class="like">
-
+              <div class="blog_img">
+                <img src="./public/images/blog_img1.jpg" class="img-fluid" alt="assiette">
+                <div class="like">
+                  <span>12 avril/53 Likes/24 commentaires</span>
+                </div>
               </div>
               <div>
                 <span>La salade grecque</span>
                 <p>Délicieux repas Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cum.</p>
               </div>
             </div>
-
           </div>
           <!-- article 2 -->
-          <div></div>
-
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div>
+              <div class="blog_img">
+                <img src="./public/images/blog_img2.jpg" class="img-fluid" alt="assiette">
+                <div class="like">
+                  <span>12 avril/36 Likes/42 commentaires</span>
+                </div>
+              </div>
+              <div>
+                <span>La salade grecque</span>
+                <p>Délicieux repas Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cum.</p>
+              </div>
+            </div>
+          </div>
         </div>
         </div>
         </div>
@@ -572,13 +601,13 @@
     <section class="sectionquatres text-white">
       <!-- titre -->
       <div class="row m-0 p-5">
-        <h2 class="text-center col-12"><span>Client</span> Testimonials</h2>
+        <h2 class="text-center col-12" id="temoin"><span>Client</span> Testimonials</h2>
       </div>
       <!-- témoignages -->
       <div class=" row m-0 p-5 temoin">
         <div class="temoin1 col-lg-6 col-md-12 col-sm-12 m-0 d-flex">
           <div class="img_temoin p-3">
-            <img src="./public/images/testimonial1.jpg" alt="photo femme" srcset="">
+            <img src="./public/images/testimonial1.jpg" class="img-fluid" alt="photo femme">
           </div>
           <div class="texte_temoin p-3">
             <h3>Natacha</h3>
@@ -588,7 +617,7 @@
         </div>
         <div class="temoin2 col-lg-6 col-md-12 col-sm-12m-0 d-flex">
           <div class="img_temoin order-1 p-3">
-            <img src="./public/images/testimonial1.jpg" alt="photo femme" srcset="">
+            <img src="./public/images/testimonial1.jpg" class="img-fluid" alt="photo femme" srcset="">
           </div>
           <div class="texte_temoin p-3 ">
             <h3>Théa</h3>
@@ -638,39 +667,43 @@
               Restaurant brasserie au coeur de burgercity, tenue par 4 amis d'enfance qui allient leurs talents pour vous faire passer des bons moments
             </p>
             <div class="réseaux">
-              <a href=""><i class="fab fa-instagram-square "></i></a>
-              <a href=""><i class="fab fa-facebook-square"></i></a>
-              <a href=""><i class="fab fa-pinterest-p"></i></a>
-              <a href=""><i class="fab fa-linkedin-in"></i></a>
+              <a href=""><i class="fab fa-instagram-square fa-2x p-2"></i></a>
+              <a href=""><i class="fab fa-facebook-square fa-2x p-2"></i></a>
+              <a href=""><i class="fab fa-pinterest-p fa-2x p-2"></i></a>
+              <a href=""><i class="fab fa-linkedin-in fa-2x p-2"></i></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12 p-3 text-center">
             <h3> Instagram</h3>
-            <div class="row m-0">
-              <img src="../../public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid">
-              <img src="../../public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid">
-              <img src="../../public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid">
-              <img src="../../public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid">
-              <img src="../../public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid">
-              <img src="../../public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid">
+            <div class="row m-0 d-flex flex">
+              <img src="./public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid p-1">
+              <img src="./public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid p-1">
+              <img src="./public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid p-1">
+              <img src="./public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid p-1">
+              <img src="./public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid p-1">
+              <img src="./public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid p-1">
+              <img src="./public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid p-1">
+              <img src="./public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid p-1">
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12 p-3 text-center">
             <h3>Popular Tags</h3>
             <div>
               <a class="btn" href="#" role="button"></a>
-              <!-- <button type="button" class="btn btn-danger">Danger</button>
-              <button type="button" class="btn btn-danger">Danger</button>
-              <button type="button" class="btn btn-danger">Danger</button>
-              <button type="button" class="btn btn-danger">Danger</button>
-              <button type="button" class="btn btn-danger">Danger</button>
-              <button type="button" class="btn btn-danger">Danger</button> -->
+              <button type="button" class="btn tag m-1">Food</button>
+              <button type="button" class="btn tag m-1">Burger</button>
+              <button type="button" class="btn tag m-1">Burgercity</button>
+              <button type="button" class="btn tag m-1">Veganloveur</button>
+              <button type="button" class="btn tag m-1">Eat</button>
+              <button type="button" class="btn tag m-1">Pizza</button>
+              <button type="button" class="btn tag m-1">miam</button>
+              <button type="button" class="btn tag m-1">grill</button>
             </div>
           </div>
         </div>
       </div>
-      <div class="copyright">
-        <span>copyright. El famoso site del chef, #coding15</span>
+      <div class="copyright text-center p-1">
+        <span>&copy; copyright. El famoso site del chef. #coding15</span>
       </div>
     </footer>
     <!-- script jquery -->
