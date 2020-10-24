@@ -15828,7 +15828,7 @@ header nav .img_nav:hover {
 }
 
 .btn1:hover {
-  background-color: #ffffff;
+  background-color: #af9a9aff;
   color: #740707;
 }
 
@@ -15838,7 +15838,7 @@ header nav .img_nav:hover {
 }
 
 .btn2:hover {
-  background-color: #8d8080;
+  background-color: #af9a9aff;
 }
 
 .img_decoration {
@@ -15848,6 +15848,10 @@ header nav .img_nav:hover {
   background-repeat: repeat-x;
   position: absolute;
   top: 98%;
+}
+
+#carouselExampleIndicators {
+  height: 400px;
 }
 
 #carouselExampleIndicators .carousel-indicators li {
@@ -15903,37 +15907,32 @@ header nav .img_nav:hover {
   text-align: center;
 }
 
+#list-tab a {
+  font-family: courgette;
+  border: none;
+}
+
+#list-tab a i {
+  color: #af9a9aff;
+}
+
+#list-tab .active {
+  border-right: solid 2px #740707;
+  color: #740707;
+}
+
+#list-tab .active i {
+  color: #740707;
+}
+
+.bg_image {
+  background-image: url("../../public/images/decoration_line.png");
+  background-repeat: no-repeat;
+  padding-bottom: 10px;
+}
+
 .sectiontrois {
   background-image: url("../../public/images/main_bg.jpg");
-}
-
-.sectiontrois .container {
-  background-color: #ffffff;
-  position: relative;
-}
-
-.top_left_r {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
-
-.top_right_r {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-}
-
-.bottom_left_r {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-}
-
-.bottom_right_r {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
 }
 
 .sectionquatres {

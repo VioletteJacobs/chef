@@ -12,23 +12,23 @@
     <!-- début header -->
     <header>
       <!-- navbar -->
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link text-white" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#us">About us</a>
+              <a class="nav-link text-white" href="#us">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#menu">Menu List</a>
+              <a class="nav-link text-white" href="#menu">Menu List</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#team">Team</a>
+                <a class="nav-link text-white" href="#team">Team</a>
             </li>
           </ul>
         </div>
@@ -38,16 +38,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#book">Réservation</a>
+              <a class="nav-link text-white" href="#book">Réservation</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#blog">Blog</a>
+              <a class="nav-link text-white" href="#blog">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#temoin">Testimonials</a>
+              <a class="nav-link text-white" href="#temoin">Testimonials</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact Us</a>
+              <a class="nav-link text-white" href="#contact">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -89,12 +89,10 @@
         <!-- <img src="./public/images/bottom_decoration_img.png" alt="" srcset=""> -->
       </div>
     </header>
-
-
     <section class="sectionun py-5">
-      <!-- histoire -->
+      <!-- histoire  et deux décoration de coin-->
       <div class="bg-white mx-5">
-        <div class="row">
+        <div class="row m-0">
           <div class="col-3 d-flex justify-content-start align-items-start">
             <img src="./public/images/box-left-top.png" alt="">
           </div>
@@ -109,27 +107,30 @@
         <!-- menu -->
         <div>
           <h2 class="text-center col-12"><span>Ours</span> Menu</h2>
-          <div class="row">
-            <div class="col-2">
+          <div class="row m-0">
+            <!-- menu déroulant -->
+            <div class="col-lg-2 col-md-12 col-sm-12">
               <div class="list-group" id="list-tab" role="tablist">
-                <a class="list-group-item list-group-item-action active text-center" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home"><i class="fas fa-mug-hot"></i> <br> Breakfast</a>
-                <a class="list-group-item list-group-item-action text-center" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile"><i class="fas fa-hamburger"></i> <br> Lunch</a>
-                <a class="list-group-item list-group-item-action text-center" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages"><i class="fas fa-utensils"></i> <br> Snacks</a>
-                <a class="list-group-item list-group-item-action text-center" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings"><i class="fas fa-mug-hot"></i> <br> Dinner</a>
+                <a class="list-group-item list-group-item-action active text-center" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home"><i class="fas fa-mug-hot fa-3x"></i> <br> <span>Breakfast</span> </a>
+                <a class="list-group-item list-group-item-action text-center" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile"><i class="fas fa-hamburger fa-3x"></i> <br> <span>Lunch</span></a>
+                <a class="list-group-item list-group-item-action text-center" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages"><i class="fas fa-utensils fa-3x"></i> <br> <span>Snacks</span></a>
+                <a class="list-group-item list-group-item-action text-center" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings"><i class="fas fa-mug-hot fa-3x"></i> <br> <span>Dinner</span> </a>
               </div>
             </div>
-            <div class="col-10">
+            <!-- fin menu déroulant -->
+            <!-- options -->
+            <div class="col-lg-10 col-md-12 col-sm-12 flex-wrap">
               <div class="tab-content" id="nav-tabContent">
                 <!-- slide -->
                 <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
                   <!-- chaque rangé d'éléments -->
                   <div class="d-flex">
                     <!-- proposition -->
-                    <div class="row m-0">
+                    <div class="row m-0 pb-2">
                       <div class="col-3 café">
                         <img class="rounded-circle" src="./public/images/menu_image_1.jpg" alt="café">
                       </div>
-                      <div class="col-6">
+                      <div class="col-lg-6 col-sm-12">
                         <span>Déjeuner</span>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                       </div>
@@ -138,39 +139,11 @@
                       </div>
                     </div>
                     <!-- proposition -->
-                    <div class="row m-0">
+                    <div class="row m-0 pb-2">
                       <div class="col-3 café">
                         <img class="rounded-circle" src="./public/images/menu_image_1.jpg" alt="café">
                       </div>
-                      <div class="col-6">
-                        <span>Déjeuner</span>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                      </div>
-                      <div class="col-3 d-flex align-items-center">
-                        <span class="dollars">3$</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="d-flex">
-                    <!-- proposition -->
-                    <div class="row m-0">
-                      <div class="col-3 café">
-                        <img class="rounded-circle" src="./public/images/menu_image_1.jpg" alt="café">
-                      </div>
-                      <div class="col-6">
-                        <span>Déjeuner</span>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                      </div>
-                      <div class="col-3 d-flex align-items-center">
-                        <span class="dollars">3$</span>
-                      </div>
-                    </div>
-                    <!-- proposition -->
-                    <div class="row m-0">
-                      <div class="col-3 café">
-                        <img class="rounded-circle" src="./public/images/menu_image_1.jpg" alt="café">
-                      </div>
-                      <div class="col-6">
+                      <div class="col-lg-6 col-sm-12">
                         <span>Déjeuner</span>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                       </div>
@@ -181,11 +154,11 @@
                   </div>
                   <div class="d-flex">
                     <!-- proposition -->
-                    <div class="row m-0">
+                    <div class="row m-0 py-2">
                       <div class="col-3 café">
                         <img class="rounded-circle" src="./public/images/menu_image_1.jpg" alt="café">
                       </div>
-                      <div class="col-6">
+                      <div class="col-lg-6 col-sm-12">
                         <span>Déjeuner</span>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                       </div>
@@ -194,39 +167,11 @@
                       </div>
                     </div>
                     <!-- proposition -->
-                    <div class="row m-0">
+                    <div class="row m-0 py-2">
                       <div class="col-3 café">
                         <img class="rounded-circle" src="./public/images/menu_image_1.jpg" alt="café">
                       </div>
-                      <div class="col-6">
-                        <span>Déjeuner</span>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                      </div>
-                      <div class="col-3 d-flex align-items-center">
-                        <span class="dollars">3$</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="d-flex">
-                    <!-- proposition -->
-                    <div class="row m-0">
-                      <div class="col-3 café">
-                        <img class="rounded-circle" src="./public/images/menu_image_1.jpg" alt="café">
-                      </div>
-                      <div class="col-6">
-                        <span>Déjeuner</span>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                      </div>
-                      <div class="col-3 d-flex align-items-center">
-                        <span class="dollars">3$</span>
-                      </div>
-                    </div>
-                    <!-- proposition -->
-                    <div class="row m-0">
-                      <div class="col-3 café">
-                        <img class="rounded-circle" src="./public/images/menu_image_1.jpg" alt="café">
-                      </div>
-                      <div class="col-6">
+                      <div class="col-lg-6 col-sm-12">
                         <span>Déjeuner</span>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                       </div>
@@ -237,11 +182,11 @@
                   </div>
                   <div class="d-flex">
                     <!-- proposition -->
-                    <div class="row m-0">
+                    <div class="row m-0 py-2">
                       <div class="col-3 café">
                         <img class="rounded-circle" src="./public/images/menu_image_1.jpg" alt="café">
                       </div>
-                      <div class="col-6">
+                      <div class="col-lg-6 col-sm-12">
                         <span>Déjeuner</span>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                       </div>
@@ -250,11 +195,67 @@
                       </div>
                     </div>
                     <!-- proposition -->
-                    <div class="row m-0">
+                    <div class="row m-0 py-2">
                       <div class="col-3 café">
                         <img class="rounded-circle" src="./public/images/menu_image_1.jpg" alt="café">
                       </div>
-                      <div class="col-6">
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Déjeuner</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_1.jpg" alt="café">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Déjeuner</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_1.jpg" alt="café">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Déjeuner</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_1.jpg" alt="café">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Déjeuner</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_1.jpg" alt="café">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
                         <span>Déjeuner</span>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                       </div>
@@ -270,11 +271,11 @@
                   <!-- chaque rangé d'éléments -->
                   <div class="d-flex">
                     <!-- proposition -->
-                    <div class="row m-0">
+                    <div class="row m-0 py-2">
                       <div class="col-3 café">
                         <img class="rounded-circle" src="./public/images/menu_image_2.jpg" alt="café">
                       </div>
-                      <div class="col-6">
+                      <div class="col-lg-6 col-sm-12">
                         <span>Lunch</span>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                       </div>
@@ -283,39 +284,11 @@
                       </div>
                     </div>
                     <!-- proposition -->
-                    <div class="row m-0">
+                    <div class="row m-0 py-2">
                       <div class="col-3 café">
                         <img class="rounded-circle" src="./public/images/menu_image_2.jpg" alt="café">
                       </div>
-                      <div class="col-6">
-                        <span>Lunch</span>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                      </div>
-                      <div class="col-3 d-flex align-items-center">
-                        <span class="dollars">3$</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="d-flex">
-                    <!-- proposition -->
-                    <div class="row m-0">
-                      <div class="col-3 café">
-                        <img class="rounded-circle" src="./public/images/menu_image_2.jpg" alt="café">
-                      </div>
-                      <div class="col-6">
-                        <span>Lunch</span>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                      </div>
-                      <div class="col-3 d-flex align-items-center">
-                        <span class="dollars">3$</span>
-                      </div>
-                    </div>
-                    <!-- proposition -->
-                    <div class="row m-0">
-                      <div class="col-3 café">
-                        <img class="rounded-circle" src="./public/images/menu_image_2.jpg" alt="café">
-                      </div>
-                      <div class="col-6">
+                      <div class="col-lg-6 col-sm-12">
                         <span>Lunch</span>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                       </div>
@@ -326,11 +299,11 @@
                   </div>
                   <div class="d-flex">
                     <!-- proposition -->
-                    <div class="row m-0">
+                    <div class="row m-0 py-2">
                       <div class="col-3 café">
                         <img class="rounded-circle" src="./public/images/menu_image_2.jpg" alt="café">
                       </div>
-                      <div class="col-6">
+                      <div class="col-lg-6 col-sm-12">
                         <span>Lunch</span>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                       </div>
@@ -339,39 +312,11 @@
                       </div>
                     </div>
                     <!-- proposition -->
-                    <div class="row m-0">
+                    <div class="row m-0 py-2">
                       <div class="col-3 café">
                         <img class="rounded-circle" src="./public/images/menu_image_2.jpg" alt="café">
                       </div>
-                      <div class="col-6">
-                        <span>Lunch</span>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                      </div>
-                      <div class="col-3 d-flex align-items-center">
-                        <span class="dollars">3$</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="d-flex">
-                    <!-- proposition -->
-                    <div class="row m-0">
-                      <div class="col-3 café">
-                        <img class="rounded-circle" src="./public/images/menu_image_2.jpg" alt="café">
-                      </div>
-                      <div class="col-6">
-                        <span>Lunch</span>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                      </div>
-                      <div class="col-3 d-flex align-items-center">
-                        <span class="dollars">3$</span>
-                      </div>
-                    </div>
-                    <!-- proposition -->
-                    <div class="row m-0">
-                      <div class="col-3 café">
-                        <img class="rounded-circle" src="./public/images/menu_image_2.jpg" alt="café">
-                      </div>
-                      <div class="col-6">
+                      <div class="col-lg-6 col-sm-12">
                         <span>Lunch</span>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                       </div>
@@ -382,11 +327,11 @@
                   </div>
                   <div class="d-flex">
                     <!-- proposition -->
-                    <div class="row m-0">
+                    <div class="row m-0 py-2">
                       <div class="col-3 café">
                         <img class="rounded-circle" src="./public/images/menu_image_2.jpg" alt="café">
                       </div>
-                      <div class="col-6">
+                      <div class="col-lg-6 col-sm-12">
                         <span>Lunch</span>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                       </div>
@@ -395,11 +340,67 @@
                       </div>
                     </div>
                     <!-- proposition -->
-                    <div class="row m-0">
+                    <div class="row m-0 py-2">
                       <div class="col-3 café">
                         <img class="rounded-circle" src="./public/images/menu_image_2.jpg" alt="café">
                       </div>
-                      <div class="col-6">
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Lunch</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_2.jpg" alt="café">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Lunch</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_2.jpg" alt="café">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Lunch</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_2.jpg" alt="café">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Lunch</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_2.jpg" alt="café">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
                         <span>Lunch</span>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                       </div>
@@ -415,44 +416,26 @@
               </div>
             </div>
           </div>
-
         </div>
-        <div></div>
+        <!-- décoration en coin de fin  -->
+        <div class="row">
+          <div class="col-3 d-flex justify-content-start align-items-end">
+            <img src="./public/images/box-bottom-left.png" alt="">
+          </div>
+          <div class="col-6 bg_image">
+          </div>
+          <div class="col-3 d-flex justify-content-end align-items-end">
+            <img src="./public/images/box-bottom_right.png" alt="">
+          </div>
+        </div>
+        <!-- fin bg white -->
       </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- fin section une -->
     <!-- section équipe -->
     <section class="section_deux">
       <div class="row m-0 p-3" id="team">
         <h2 class="text-center text-white col-12"><span>Meet</span> the team</h2>
-        <img src="./public/images/decoration_line.png" class="col-6 mx-auto" alt="ligne décoratrice sourlignant le texte">
       <div class="row m-0 team">
         <div class="col-lg-3 col-md-6 col-sm-12 text-center p-3 chef">
           <img src="./public/images/chef1.png" class="border-bottom" alt="photo chef" srcset="">
@@ -474,56 +457,101 @@
     </section>
     <!-- fin section deux -->
     <!-- section trois réserver et blog -->
-        <section class="sectiontrois p-lg-5 p-md-3 p-sm-5">
-      <div class="container ">
-        <!-- décoration coin au dessus -->
-        <div class="top_left_r">
-            <img src="./public/images/box-left-top-grey.png" alt="coin gris décors">
-        </div>
-        <div class="top_right_r">
-            <img src="./public/images/box-right-top-grey.png" alt="coin gris décors">
-        </div>
-        <!-- book-->
-        <div class="book p-5">
-          <div class="row m-0" id="us">
-            <h2 class="text-center col-12"><span>Book</span> your table</h2>
-            <img src="./public/images/decoration_line.png" class="col-6 mx-auto" alt="ligne décoratrice sourlignant le texte">
-          </div>
-          <!-- formulaire -->
-        </div>
-        <!-- partie blog -->
-        <div class="blog" id="blog">
-          <div class="row m-0 p-5">
-            <h2 class="text-center col-12"><span>Our</span> blog</h2>
-            <img src="./public/images/decoration_line.png" class="col-6 mx-auto" alt="ligne décoratrice sourlignant le texte">
-          </div>
-          <div class="row m-0">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <img src="./public/images/blog_img1.jpg" class="img-fluid" alt="salade grecque" srcset="">
-              <p>Savourez une salade grecque durant votre pause déjeuner pour faire le plein de vitamines et de soleil avant de retourner bosser.</p>
+   <section class="sectiontrois p-lg-5 p-md-3 p-sm-5">
+       <div class="bg-white mx-5">
+         <!-- coin décoration -->
+         <div class="row">
+           <div class="col-3 d-flex justify-content-start align-items-start">
+             <img src="./public/images/box-left-top-grey.png" alt="">
+           </div>
+           <div class="col-6">
+             <h2 class="text-center col-12"><span>Book</span> your table</h2>
+           </div>
+           <div class="col-3 d-flex justify-content-end align-items-start">
+             <img src="./public/images/box-right-top-grey.png" alt="">
+           </div>
+         </div>
+         <!-- book your table -->
+         <div class="row m-0 justify-content-center">
+           <div class="card bg-dark text-white">
+            <img src="./public/images/book_table_bg.jpg" class="card-img" alt="iamge d'arriére plan table">
+            <div class="card-img-overlay">
+              <h5 class="card-title text-center">Si vous avez la moindre question, téléphonez au <span>0487/56.21.01</span></h5>
+              <!-- formulaire de réservation -->
+              <form>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nom et prénom">
+                </div>
+                <div class="form-group">
+                  <input type="phone" class="form-control" id="exampleFormControlInput1" placeholder="Numéro de téléphone">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Date (jj/mm/aaaa)">
+                </div>
+                <div>
+                  <select class="custom-select">
+                    <option selected>Occasion</option>
+                    <option value="1">Anniversaire</option>
+                    <option value="2">Joie entre ami.es.</option>
+                    <option value="3">Moment romantique</option>
+                    <option value="4">Juste comme ça</option>
+                    <option value="5">Ça te regarde pas</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Votre email">
+                </div>
+                <div>
+                  <select class="custom-select">
+                    <option selected>Nombre de personne(s)</option>
+                    <option value="1">Tête à tête avec soit-même</option>
+                    <option value="2">soirée à deux</option>
+                    <option value="3">entre 3 et 4</option>
+                    <option value="4">entre 5 et 6</option>
+                    <option value="5">plus de 6</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Heure de réservation (xxhxx)">
+                </div>
+                <div>
+                  <select class="custom-select">
+                    <option selected>Type de cuisine</option>
+                    <option value="1">Burger loveur</option>
+                    <option value="2">Vegan ever</option>
+                    <option value="3">Grillade forever</option>
+                    <option value="4">Pizza please</option>
+                    <option value="5">Juste un dessert, c'est possible?!</option>
+                  </select>
+                </div>
+              </form>
+              <button type="button" class="btn btn1">Réservez</button>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <img src="./public/images/blog_img2.jpg" class="img-fluid" alt="salade niçoise" srcset="">
-              <p>Nos salades niçoises vous apporteront le plein de protéines et vitamines pour entamer votre après-midi avec un relan d'énergie</p>
-            </div>
+         </div>
+         <!-- blog -->
+         <div>
+          <h2 class="text-center col-12"><span>Our</span> Blog</h2>
+         </div>
+        </div>
+        <!-- déco fin -->
+        <div class="row m-0">
+          <div class="col-3 d-flex justify-content-start align-items-end">
+            <img src="./public/images/box-bottom-left-grey.png" alt="">
+          </div>
+          <div class="col-6 bg_image">
+          </div>
+          <div class="col-3 d-flex justify-content-end align-items-end">
+            <img src="./public/images/box-bottom_right-grey.png" alt="">
           </div>
         </div>
-        <!-- décoration dessous -->
-        <div class="bottom_left_r">
-          <img src="./public/images/box-bottom-left-grey.png" alt="coin gris décor">
-      </div>
-      <div class="bottom_right_r">
-          <img src="./public/images/box-bottom_right-grey.png" alt="coin gris décor">
-      </div>
-      </div>
-    </section>
-    <!-- fin section -->
-    <!-- section quatres témoignages-->
+         <!-- fin bg white -->
+       </div>
+   </section>
+   <!-- section témoignage -->
     <section class="sectionquatres text-white">
       <!-- titre -->
       <div class="row m-0 p-5">
         <h2 class="text-center col-12"><span>Client</span> Testimonials</h2>
-        <img src="./public/images/decoration_line.png" class="col-6 mx-auto" alt="ligne décoratrice sourlignant le texte">
       </div>
       <!-- témoignages -->
       <div class=" row m-0 p-5 temoin">
@@ -554,7 +582,6 @@
     <section class="sectioncinq" id="contact">
         <div class="row m-0 p-5 d-flex ">
           <h2 class="text-center col-12"><span>Our</span> contact</h2>
-          <img src="./public/images/decoration_line.png" class="col-6 mx-auto" alt="ligne décoratrice sourlignant le texte">
         </div>
         <div class=" d-flex justify-content-center">
           <div class="card mb-3" style="max-width: 18rem;">
@@ -598,7 +625,7 @@
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12 p-3 text-center">
             <h3> Instagram</h3>
-            <div class="row">
+            <div class="row m-0">
               <img src="../../public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid">
               <img src="../../public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid">
               <img src="../../public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid">
@@ -624,7 +651,7 @@
 
       </div>
       <div class="copyright">
-        <span>copyright. the famous site del chef, #coding15</span>
+        <span>copyright. El famoso site del chef, #coding15</span>
       </div>
     </footer>
     <!-- script jquery -->
