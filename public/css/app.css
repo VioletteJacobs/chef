@@ -15791,6 +15791,10 @@ body h2 span {
   color: #740707;
 }
 
+body span {
+  font-weight: bold;
+}
+
 header {
   background: linear-gradient(rgba(22, 20, 20, 0.7), rgba(56, 51, 51, 0.789)), url("../../public/images/banner1.jpg");
   background-position: center;
@@ -15861,7 +15865,8 @@ header nav .img_nav:hover {
 }
 
 #carouselExampleIndicators .carousel-indicators .active {
-  border: solid 4px;
+  border-radius: 50%;
+  border: solid 4px #af9a9aff;
   height: 5px;
   width: 5px;
   margin: 10px;
@@ -15944,8 +15949,11 @@ header nav .img_nav:hover {
 .blog_img .like {
   background-color: #740707;
   color: #ffffff;
+  border-radius: 25%;
+  padding: 10px;
   position: absolute;
-  border-radius: 30%;
+  bottom: 20%;
+  right: 25%;
 }
 
 .sectionquatres {
@@ -15980,7 +15988,7 @@ header nav .img_nav:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
+  height: auto;
   position: relative;
 }
 
@@ -15997,7 +16005,7 @@ header nav .img_nav:hover {
   color: #ffffff;
 }
 
-.réseaux:hover {
+.réseaux a:hover {
   color: #740707;
 }
 

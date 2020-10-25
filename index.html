@@ -53,7 +53,7 @@
         </div>
       </nav>
       <!-- caroussel -->
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide d-none d-lg-block" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -111,10 +111,10 @@
             <!-- menu déroulant -->
             <div class="col-lg-2 col-md-12 col-sm-12">
               <div class="list-group" id="list-tab" role="tablist">
-                <a class="list-group-item list-group-item-action active text-center" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home"><i class="fas fa-mug-hot fa-3x"></i> <br> <span>Breakfast</span> </a>
-                <a class="list-group-item list-group-item-action text-center" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile"><i class="fas fa-hamburger fa-3x"></i> <br> <span>Lunch</span></a>
-                <a class="list-group-item list-group-item-action text-center" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages"><i class="fas fa-utensils fa-3x"></i> <br> <span>Snacks</span></a>
-                <a class="list-group-item list-group-item-action text-center" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings"><i class="fas fa-mug-hot fa-3x"></i> <br> <span>Dinner</span> </a>
+                <a class="list-group-item list-group-item-action active text-center bg-light" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home"><i class="fas fa-mug-hot fa-3x"></i> <br> <span>Breakfast</span> </a>
+                <a class="list-group-item list-group-item-action text-center bg-light" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages"><i class="fas fa-utensils fa-3x"></i> <br> <span>Snacks</span></a>
+                <a class="list-group-item list-group-item-action text-center bg-light" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile"><i class="fas fa-hamburger fa-3x"></i> <br> <span>Lunch</span></a>
+                <a class="list-group-item list-group-item-action text-center bg-light" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings"><i class="fas fa-mug-hot fa-3x"></i> <br> <span>Dinner</span> </a>
               </div>
             </div>
             <!-- fin menu déroulant -->
@@ -411,8 +411,294 @@
                   </div>
                   <!-- fin slide lunch -->
                 </div>
-                <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
-                <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+                <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                  <!-- chaque rangé d'éléments -->
+                  <div class="d-flex">
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_3.jpg" alt="salade feta">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Snack</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_3.jpg" alt="salade feta">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Snack</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_3.jpg" alt="salade feta">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Snack</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_3.jpg" alt="salade feta">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Snack</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_3.jpg" alt="salade feta">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Snack</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_3.jpg" alt="salade feta">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Snack</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_3.jpg" alt="salade feta">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Snack</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_3.jpg" alt="Salade feta">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Snack</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_3.jpg" alt="Salade feta">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Snack</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_3.jpg" alt="Salade feta">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Snack</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- fin de slides -->
+                </div>
+                <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                  <!-- chaque rangé d'éléments -->
+                  <div class="d-flex">
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_4.jpg" alt="salade poulet">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Dinner</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_4.jpg" alt="salade poulet">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Dinner</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_4.jpg" alt="salade poulet">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Dinner</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_4.jpg" alt="salade poulet">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Dinner</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_4.jpg" alt="salade poulet">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Dinner</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_4.jpg" alt="salade poulet">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Dinner</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_4.jpg" alt="salade poulet">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Dinner</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_4.jpg" alt="Salade poulet">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Dinner</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_4.jpg" alt="Salade poulet">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Dinner</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                    <!-- proposition -->
+                    <div class="row m-0 py-2">
+                      <div class="col-3 café">
+                        <img class="rounded-circle" src="./public/images/menu_image_4.jpg" alt="Salade poulet">
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <span>Dinner</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <span class="dollars">3$</span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- fin de slide -->
+                </div>
               </div>
             </div>
           </div>
@@ -468,12 +754,12 @@
    <section class="sectiontrois p-lg-5 p-md-3 p-sm-5">
       <div class="bg-white mx-5">
         <!-- coin décoration -->
-        <div class="row">
+        <div class="row mb-md-5 mb-sm-3">
           <div class="col-3 d-flex justify-content-start align-items-start">
             <img src="./public/images/box-left-top-grey.png" class="img-fluid" alt="coin bord déco">
           </div>
           <div class="col-6">
-            <h2 class="text-center col-12"><span>Book</span> your table</h2>
+            <h2 class="text-center col-12 mt-3"><span>Book</span> your table</h2>
           </div>
           <div class="col-3 d-flex justify-content-end align-items-start">
             <img src="./public/images/box-right-top-grey.png" class="img-fluid" alt="coin bord déco">
@@ -483,9 +769,9 @@
         <div class="row m-0 justify-content-center align-items-center" id="book">
           <!-- card -->
           <div class="card bg-dark text-white">
-            <img src="./public/images/book_table_bg.jpg" class="card-img img-fluid" alt="iamge d'arriére plan table">
+            <img src="./public/images/book_table_bg.jpg" class="card-img-fluid" alt="iamge d'arriére plan table">
             <div class="card-img-overlay">
-              <h5 class="card-title text-center">Si vous avez la moindre question, téléphonez au <span>0487/56.21.01</span></h5>
+              <h5 class="card-title text-center my-3">Si vous avez la moindre question, téléphonez au <span>0487/56.21.01</span></h5>
               <!-- formulaire de réservation -->
               <form class="row m-0 d-flex p-lg-5 ">
                 <!-- rangée1 -->
@@ -500,7 +786,7 @@
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Date (jj/mm/aaaa)">
                   </div>
                   <div>
-                    <select class="custom-select">
+                    <select class="custom-select mb-3">
                       <option selected>Occasion</option>
                       <option value="1">Anniversaire</option>
                       <option value="2">Joie entre ami.es.</option>
@@ -541,7 +827,7 @@
                 </div>
               </form>
               <div class="d-flex justify-content-center align-items-center">
-                <button type="button" class="btn btn1">Réservez</button>
+                <button type="button" class="btn btn1 m-sm-2">Réservez</button>
               </div>
             </div>
           </div>
@@ -555,7 +841,7 @@
             <div>
               <div class="blog_img">
                 <img src="./public/images/blog_img1.jpg" class="img-fluid" alt="assiette">
-                <div class="like">
+                <div class="like px-3">
                   <span>12 avril/53 Likes/24 commentaires</span>
                 </div>
               </div>
@@ -570,7 +856,7 @@
             <div>
               <div class="blog_img">
                 <img src="./public/images/blog_img2.jpg" class="img-fluid" alt="assiette">
-                <div class="like">
+                <div class="like px-3">
                   <span>12 avril/36 Likes/42 commentaires</span>
                 </div>
               </div>
@@ -661,7 +947,7 @@
       </div>
       <div class="intro_footer text-white">
         <div class="row m-0">
-          <div class="col-lg-4 col-md-4 col-sm-12 p-3 text-center">
+          <div class="col-lg-4 col-md-4 col-sm-12 p-3">
             <h3>About us</h3>
             <p>
               Restaurant brasserie au coeur de burgercity, tenue par 4 amis d'enfance qui allient leurs talents pour vous faire passer des bons moments
@@ -673,24 +959,39 @@
               <a href=""><i class="fab fa-linkedin-in fa-2x p-2"></i></a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-12 p-3 text-center">
+          <div class="col-lg-4 col-md-4 col-sm-12 p-3">
             <h3> Instagram</h3>
             <div class="row m-0 d-flex flex">
-              <img src="./public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid p-1">
-              <img src="./public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid p-1">
-              <img src="./public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid p-1">
-              <img src="./public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid p-1">
-              <img src="./public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid p-1">
-              <img src="./public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid p-1">
-              <img src="./public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid p-1">
-              <img src="./public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid p-1">
+              <a href="">
+                <img src="./public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid p-1">
+              </a>
+              <a href="">
+                <img src="./public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid p-1">
+              </a>
+              <a href="">
+                <img src="./public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid p-1">
+              </a>
+              <a href="">
+                <img src="./public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid p-1">
+              </a>
+              <a href="">
+                <img src="./public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid p-1">
+              </a>
+              <a href="">
+                <img src="./public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid p-1">
+              </a>
+              <a href="">
+                <img src="./public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid p-1">
+              </a>
+              <a href="">
+                <img src="./public/images/instragram_gallery_img1.jpg" alt="photo plat" class="img-fluid p-1">
+              </a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-12 p-3 text-center">
+          <div class="col-lg-4 col-md-4 col-sm-12 p-3">
             <h3>Popular Tags</h3>
             <div>
-              <a class="btn" href="#" role="button"></a>
-              <button type="button" class="btn tag m-1">Food</button>
+              <button type="button" class="btn tag m-1">Good food</button>
               <button type="button" class="btn tag m-1">Burger</button>
               <button type="button" class="btn tag m-1">Burgercity</button>
               <button type="button" class="btn tag m-1">Veganloveur</button>
@@ -703,7 +1004,7 @@
         </div>
       </div>
       <div class="copyright text-center p-1">
-        <span>&copy; copyright. El famoso site del chef. #coding15</span>
+        <span>&copy; copyright. 2017. El famoso site del chef. #coding15</span>
       </div>
     </footer>
     <!-- script jquery -->
