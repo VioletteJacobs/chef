@@ -15788,7 +15788,7 @@ body h2 {
 }
 
 body h2 span {
-  color: #740707;
+  color: #e0284d;
 }
 
 body span {
@@ -15815,7 +15815,7 @@ header nav ul a {
 
 header nav ul a:hover {
   color: #776e6e;
-  background: #740707;
+  background: #e0284d;
 }
 
 header nav .img_nav:hover {
@@ -15827,18 +15827,18 @@ header nav .img_nav:hover {
 }
 
 .btn1 {
-  background-color: #740707;
+  background-color: #e0284d;
   color: #ffffff;
 }
 
 .btn1:hover {
   background-color: #af9a9aff;
-  color: #740707;
+  color: #e0284d;
 }
 
 .btn2 {
   background-color: #ffffff;
-  color: #740707;
+  color: #e0284d;
 }
 
 .btn2:hover {
@@ -15884,7 +15884,7 @@ header nav .img_nav:hover {
 
 #carouselExampleIndicators .carousel-inner .carousel-item .slogan .span2 {
   font-size: 60px;
-  color: #740707;
+  color: #e0284d;
 }
 
 .sectionun {
@@ -15897,7 +15897,7 @@ header nav .img_nav:hover {
 }
 
 .dollars {
-  background-color: #740707;
+  background-color: #e0284d;
   color: #ffffff;
   border-radius: 30%;
   border: solid 2px #ffffff;
@@ -15922,12 +15922,12 @@ header nav .img_nav:hover {
 }
 
 #list-tab .active {
-  border-right: solid 2px #740707;
-  color: #740707;
+  border-right: solid 2px #e0284d;
+  color: #e0284d;
 }
 
 #list-tab .active i {
-  color: #740707;
+  color: #e0284d;
 }
 
 .bg_image {
@@ -15941,19 +15941,18 @@ header nav .img_nav:hover {
 }
 
 .blog_img img {
-  border-radius: 20%;
+  border-radius: 20px;
   border: solid #af9a9aff 5px;
   position: relative;
 }
 
 .blog_img .like {
-  background-color: #740707;
+  background-color: #e0284d;
   color: #ffffff;
-  border-radius: 25%;
-  padding: 10px;
+  border-radius: 25px;
   position: absolute;
-  bottom: 20%;
-  right: 25%;
+  bottom: 30%;
+  left: 10%;
 }
 
 .sectionquatres {
@@ -15971,7 +15970,7 @@ header nav .img_nav:hover {
 }
 
 .sectionquatres .temoin .texte_temoin span {
-  color: #740707;
+  color: #e0284d;
 }
 
 .sectioncinq {
@@ -15979,7 +15978,7 @@ header nav .img_nav:hover {
 }
 
 .sectioncinq .card {
-  background-color: #740707;
+  background-color: #e0284d;
   color: #ffffff;
 }
 
@@ -16006,16 +16005,16 @@ header nav .img_nav:hover {
 }
 
 .réseaux a:hover {
-  color: #740707;
+  color: #e0284d;
 }
 
 .tag {
   border-radius: 35%;
   border: solid 1px #ffffff;
-  background-color: #740707;
+  background-color: #e0284d;
   color: #ffffff;
 }
 
 .copyright {
-  background-color: #740707;
+  background-color: #e0284d;
 }
