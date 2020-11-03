@@ -15784,7 +15784,8 @@ body h2 {
   background-image: url("../../public/images/decoration_line.png");
   background-position: bottom;
   background-repeat: no-repeat;
-  padding-bottom: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
 }
 
 body h2 span {
@@ -15829,6 +15830,7 @@ header nav .img_nav:hover {
 .btn1 {
   background-color: #e0284d;
   color: #ffffff;
+  border-radius: 100px;
 }
 
 .btn1:hover {
@@ -15839,6 +15841,7 @@ header nav .img_nav:hover {
 .btn2 {
   background-color: #ffffff;
   color: #e0284d;
+  border-radius: 100px;
 }
 
 .btn2:hover {
@@ -15966,7 +15969,7 @@ header nav .img_nav:hover {
 
 .sectionquatres .temoin .texte_temoin {
   border: solid 2px #ffffff;
-  border-radius: 20%;
+  border-radius: 15px;
 }
 
 .sectionquatres .temoin .texte_temoin span {
@@ -16009,7 +16012,7 @@ header nav .img_nav:hover {
 }
 
 .tag {
-  border-radius: 35%;
+  border-radius: 200px;
   border: solid 1px #ffffff;
   background-color: #e0284d;
   color: #ffffff;
