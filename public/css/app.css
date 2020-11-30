@@ -15943,23 +15943,47 @@ header nav .img_nav:hover {
   background-image: url("../../public/images/main_bg.jpg");
 }
 
-.blog_img img {
-  border-radius: 20px;
-  border: solid #af9a9aff 5px;
+.blog_img {
   position: relative;
 }
 
+.blog_img img {
+  border-radius: 20px;
+  border: solid #af9a9aff 5px;
+}
+
 .blog_img .like {
+  width: 90%;
   background-color: #e0284d;
   color: #ffffff;
   border-radius: 25px;
   position: absolute;
-  bottom: 30%;
-  left: 10%;
+  bottom: -30px;
+  left: 20px;
+}
+
+.blog_img .like span {
+  font-weight: lighter;
+}
+
+.blog_img .like span span {
+  font-weight: bold;
+}
+
+.bloc-texte {
+  left: 20px;
+  position: absolute;
+}
+
+.espace {
+  width: 10%;
+  height: 150px;
 }
 
 .sectionquatres {
   background-image: url("../../public/images/testimonials_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .sectionquatres .temoin .img_temoin img {

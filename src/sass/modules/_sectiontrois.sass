@@ -1,20 +1,38 @@
 .sectiontrois
     background-image: url("../../public/images/main_bg.jpg")
 .blog_img
+    position: relative
     img
         border-radius: 20px
         border: solid $colorgris 5px
-        position: relative
+
     .like
+        width: 90%
         background-color: $colorred
         color: #ffffff
         border-radius: 25px
         position: absolute
-        bottom: 30%
-        left: 10%
+        bottom: -30px
+        left: 20px
+        span
+            font-weight: lighter
+            span 
+                font-weight: bold
 
+.bloc-texte
+    left: 20px
+    position: absolute
+// .bloc-texte2
+//     left: 20px
+//     position: absolute
+.espace
+    width: 10%
+    height: 150px
 
-
-
+// media queries
+// Small screen
+@media screen and (min-width: 320px) and (max-width: 599px)
+.blog_img
+    margin : 20px
 
 
